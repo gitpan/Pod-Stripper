@@ -87,7 +87,7 @@ local $^W = 1; # flip on teh warnings
 
 use vars qw/ @ISA $VERSION/;
 
-$VERSION = 0.21;
+$VERSION = 0.22;
 
 @ISA = qw(Pod::Parser); # Pod'Parser is also legal
 

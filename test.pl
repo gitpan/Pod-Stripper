@@ -19,6 +19,9 @@ ok(1); # If we made it this far, we're ok.
 # Insert your test code below, the Test module is use()ed here so read
 # its man page ( perldoc Test ) for help writing this test script.
 
+## dang cpan testers
+chmod 0664, 'test.stripped' or die "can't chmod test.stripped? $!";
+
 ok(&test1(),'1');
 ok(&test2(),'1');
 

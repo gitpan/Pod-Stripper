@@ -10,4 +10,5 @@ WriteMakefile(
     'ABSTRACT_FROM' => 'Stripper.pm',
     'AUTHOR'        => 'D.H. aka crazyinsomniac|at|yahoo.com',
     'DISTNAME'      => 'Pod-Stripper',
+    'EXE_FILES'     => ['podstrip'],
 ,);
