@@ -1,0 +1,21 @@
+Revision history for Perl extension Pod::Stripper.
+
+0.21  Sun Feb 24 16:25:40 2002
+    - finally sobered up, got a little time, wrote a requested feature
+      (doesn't strip out hidden code anymore)
+    - moved the pod around some
+    - finally uploaded to CPAN
+
+0.2 - Sun Jan 18 03:25:40 2002
+    - reformatted some code, cleaned up the dist, make dist
+
+0.02  Thu Jan 10 04:37:00 2002
+    - added unless(caller()) to package main
+
+0.01  Tue Jan  8 19:21:00 2002
+    - updated pretty much everything, wrote module ;)
+
+0.01  Tue Jan  8 19:12:46 2002
+	- original version; created by h2xs 1.21 with options
+		-AX -n Pod::Stripper
+

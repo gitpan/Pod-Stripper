@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+Stripper.pm
+test.pl
+test.stripped
